@@ -1,0 +1,21 @@
+name: env4pfas2
+channels:
+- rdkit
+- conda-forge
+dependencies:
+- pip
+- rdkit
+- numpy
+- ipython
+- jupyter
+- matplotlib
+- numpy
+- pandas
+- scipy
+- scikit-learn
+- mordred
+- GPyOpt
+- umap-learn
+- pip:
+  - tensorflow==2.3
+  - tensorflow-probability==0.11.1

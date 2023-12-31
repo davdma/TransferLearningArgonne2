@@ -14,3 +14,11 @@ At the end of the summer internship, I felt there were certain approaches to the
 
 ![thumbnail_IMG_0968](https://github.com/davdma/TransferLearningModularized/assets/42689743/6de9ea91-eb48-4ec2-9750-de216e0c2cb6)
 **Figure 2:** A sketch I did of the workflow. Each box is a phase of the implementation which can be found as a separate jupyter notebook.
+
+### Results
+
+![download](https://github.com/davdma/TransferLearningArgonne2/assets/42689743/bba6d06c-9edb-41a3-9a7c-892024d3586a)
+
+Comparing `Base-Target` and `Base-Target` plots While we see an improvement in the prediction in the source task of "PFAS-like" substances from previous 
+
+

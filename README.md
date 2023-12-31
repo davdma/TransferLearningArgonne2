@@ -19,6 +19,6 @@ At the end of the summer internship, I felt there were certain approaches to the
 
 ![download](https://github.com/davdma/TransferLearningArgonne2/assets/42689743/bba6d06c-9edb-41a3-9a7c-892024d3586a)
 
-Comparing `Base-Target` and `Base-Target` plots While we see an improvement in the prediction in the source task of "PFAS-like" substances from previous 
+Comparing `DNN-Base-Target` to `DNN-Transfer-Target` plots While we see an improvement in the prediction in the source task of "PFAS-like" substances from previous 
 
 

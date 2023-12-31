@@ -2,6 +2,8 @@
 
 At the end of the summer internship, I felt there were certain approaches to the problem of PFAS modeling I did not get a chance to fully explore. For example, I had not tried changing the composition of the underlying dataset in which we attempted to transfer knowledge from towards the task of PFAS prediction. Given that the chemicals in the general dataset have very different physico-chemical properties from PFAS, it was likely that the lack of knowledge transfer in my prior experiments was due to the source domain being too far off from the target domain - **in short, nothing useful could be transferred because neutral lipophilic compounds bioaccumulate very differently from PFAS.**
 
+![image](https://github.com/davdma/TransferLearningArgonne2/assets/42689743/853d3b89-4c73-4bcb-9d7a-5951586ab3bd)
+
 ### Methodology
 
 1. To try to tackle this shortcoming, I collected PFAS chemicals and their corresponding chemical structures from the [OECD Global Database of Per- and Polyfluoroalkyl Substances](https://comptox.epa.gov/dashboard/chemical-lists/PFASOECD).

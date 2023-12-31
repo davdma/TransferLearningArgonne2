@@ -9,6 +9,7 @@ At the end of the summer internship, I felt there were certain approaches to the
 
 1. To try to tackle this shortcoming, I collected PFAS chemicals and their corresponding chemical structures from the [OECD Global Database of Per- and Polyfluoroalkyl Substances](https://comptox.epa.gov/dashboard/chemical-lists/PFASOECD).
 2. I then used PCA and UMAP dimensionality reduction methods to see where the PFAS formed a cluster in the feature space. By calculating the distance of each datapoint from the PFAS cluster, I could sample chemicals nearest to the cluster to form a training set of "PFAS-like" substances.
-3. Similar to before, I trained a base model on these "PFAS-like" substances, and transferred the weights to a new model for learning on the smaller PFAS dataset. 
+3. Another way I formed a group of "PFAS-like" substances was by using an automated chemical classification algorithm (I used [ClassyFire](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-016-0174-y)) to classify each chemical in my dataset, and filtering for alcohols, phenols, ketones, surfactants, aldehydes, carboxylic acids, sulfonic acids, esters etc. which were more structurally similar to PFAS.
+4. Similar to before, I trained a base model on these "PFAS-like" substances, and transferred the weights to a new model for learning on the smaller PFAS dataset. 
 
 ![thumbnail_IMG_0968](https://github.com/davdma/TransferLearningModularized/assets/42689743/6de9ea91-eb48-4ec2-9750-de216e0c2cb6)

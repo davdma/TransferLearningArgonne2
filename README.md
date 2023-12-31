@@ -4,6 +4,8 @@ At the end of the summer internship, I felt there were certain approaches to the
 
 ### Methodology
 
-To try to tackle this shortcoming, I scraped from the [OECD Global Database of Per- and Polyfluoroalkyl Substances](https://comptox.epa.gov/dashboard/chemical-lists/PFASOECD) used PCA and UMAP dimensionality reduction methods to find clusters of PFAS large unlabeled PFAS dataset, I measured the distance of the I also specifically by tweaking the chemical substances used for training to find chemicals structurally similar to PFAS so that training on those samples would allow for more appropriate transfer of knowledge based on how close their chemical domains were.
+1. To try to tackle this shortcoming, I collected PFAS chemicals and their corresponding chemical structures from the [OECD Global Database of Per- and Polyfluoroalkyl Substances](https://comptox.epa.gov/dashboard/chemical-lists/PFASOECD).
+2. I then used PCA and UMAP dimensionality reduction methods to see where the PFAS formed a cluster in the feature space. By calculating the distance of each datapoint from the PFAS cluster, I could sample chemicals nearest to the cluster to form a training set of "PFAS-like" substances.
+3. These "PFAS-like" substances would then be used for training the source task, and the knowledge transferred on the small PFAS dataset. used for training the base model of the transfer learning model. by tweaking the chemical substances used for training to find chemicals structurally similar to PFAS so that training on those samples would allow for more appropriate transfer of knowledge based on how close their chemical domains were.
 
 ![thumbnail_IMG_0968](https://github.com/davdma/TransferLearningModularized/assets/42689743/6de9ea91-eb48-4ec2-9750-de216e0c2cb6)

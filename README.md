@@ -13,4 +13,4 @@ At the end of the summer internship, I felt there were certain approaches to the
 4. Similar to before, I trained a base model on these "PFAS-like" substances, and transferred the weights to a new model for learning on the smaller PFAS dataset. 
 
 ![thumbnail_IMG_0968](https://github.com/davdma/TransferLearningModularized/assets/42689743/6de9ea91-eb48-4ec2-9750-de216e0c2cb6)
-**Figure 2:** A sketch I did of the workflow
+**Figure 2:** A sketch I did of the workflow. Each box is a phase of the implementation which can be found as a separate jupyter notebook.

@@ -4,6 +4,6 @@ At the end of the summer internship, I felt there were certain approaches to the
 
 ### Methodology
 
-To test out this possibility, I decided to use PCA and UMAP dimensionality reduction to using their chemical structure. Using a large unlabeled PFAS dataset, I measured the distance of the I also specifically by tweaking the chemical substances used for training to find chemicals structurally similar to PFAS so that training on those samples would allow for more appropriate transfer of knowledge based on how close their chemical domains were.
+To try to tackle this shortcoming, I scraped from the [https://comptox.epa.gov/dashboard/chemical-lists/PFASOECD](OECD Global Database of Per- and Polyfluoroalkyl Substances) used PCA and UMAP dimensionality reduction methods to find clusters of PFAS large unlabeled PFAS dataset, I measured the distance of the I also specifically by tweaking the chemical substances used for training to find chemicals structurally similar to PFAS so that training on those samples would allow for more appropriate transfer of knowledge based on how close their chemical domains were.
 
 ![thumbnail_IMG_0968](https://github.com/davdma/TransferLearningModularized/assets/42689743/6de9ea91-eb48-4ec2-9750-de216e0c2cb6)

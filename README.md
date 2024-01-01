@@ -19,6 +19,6 @@ At the end of the summer internship, I felt there were certain approaches to the
 
 ![download](https://github.com/davdma/TransferLearningArgonne2/assets/42689743/bba6d06c-9edb-41a3-9a7c-892024d3586a)
 
-Comparing `DNN-Base-Target` to `DNN-Transfer-Target` plots we see an improvement in the prediction in the target task of "PFAS-like" substances in our model from the transfer. However, if we look at `DNN-Base-PFAS` and `DNN-Transfer-PFAS` we see that the transfer seems to have made the model averse to categorizing PFAS as bioaccumulative and underpredict when before it had been overpredicting.
+Comparing `DNN-Base-Target` to `DNN-Transfer-Target` plots we see an improvement in the prediction in the target task of "PFAS-like" substances in our model from the transfer. However, if we look at `DNN-Base-PFAS` and `DNN-Transfer-PFAS` we see that the transfer seems to have made the model averse to categorizing PFAS as bioaccumulative and underpredict when before it had been overpredicting. It seems from the experiment that our PFAS-like substances were not enough for meaningful learning to occur in the PFAS domain, further highlighting the difficulties of overcoming the PFAS data gap.
 
 
